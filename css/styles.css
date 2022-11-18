@@ -1,0 +1,110 @@
+.nav-bar{
+    background-color: #FFF4CA;
+}
+
+.banner-body{
+   background-color: #F6CBFD;
+   padding-top: 7.5%;
+}
+
+.nav-item{
+    padding-left: 40%;
+    height: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-image{
+    max-width: 60px;
+    width: 100%;
+    height: auto;
+}
+
+.banner-title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-image-second{
+    padding-bottom: 2%;
+    width: 19%;
+    height: auto;
+}
+
+
+.our-mission{
+    background-color: #FFF4CA;
+    padding-top: 1.5%;
+}
+
+.mission-statement{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.slogan-text{
+    padding-bottom: 2.5%;
+}
+
+.slogan-text-second{
+    padding-bottom: 2.5%;
+    padding-left: 11.75%;
+    padding-right: 11.75%;
+}
+
+.slogan-text-third{
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+    padding-right: 40.75%;
+}
+
+.slogan-text-fourth{
+    padding-bottom: 2.5%;
+    padding-left: 45.75%;
+    margin-top: -22.2%;
+    
+}
+.caption-spacing{
+    padding-bottom: 2%;
+}
+
+.our-past-collabrators-sponsors{
+    background-color: #FFF4CA;
+}
+
+.our-mission-alternate{
+    background-color: #FFF4CA;
+    padding-top: 1.5%;
+}
+
+.logo-image-alternate{
+    padding-bottom: 2%;
+    width: 14%;
+    height: auto;
+    padding-left: 4%;
+}
+ 
+.images-section{
+    padding-top: .75%;
+    padding-left: 5%;
+}
+
+.testmonials{
+    padding-top: 1.5%; 
+    background-color: #F6CBFD;
+}
+
+.slogan-text-fifth{
+    padding-bottom: 2.5%;
+    padding-left: 11.75%;
+    padding-right: 11.75%;
+}
+
+.testmonial-caption{
+    padding-left: 45%;
+    padding-bottom: 1.5%;
+    margin-top: -2%;
+    margin-right: 5%;
+}
+
+.statistics{
+    background-color: #F6CBFD;
+}

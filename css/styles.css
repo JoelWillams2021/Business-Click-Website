@@ -129,3 +129,19 @@ body{
 
 }
 
+.event-title {
+    background-color: #F6CBFD;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.event-schedule {
+    background-color: #FFF4CA;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.event-info {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}

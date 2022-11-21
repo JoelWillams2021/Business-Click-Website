@@ -6,60 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="icon" href="images/Business Click Logo.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>Business Click</title>
 </head>
 <body>
 
-    <div class = "nav-bar">
+    <div class = "nav-bar sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" >
-                    <img class= "logo-image" src="images/Business Click Logo.png" alt="Logo">
-                </a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active text-black h2" aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-black h2" href="#">QUIZ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-black h2 ">BUSINESSES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-black h2 ">RESOURCES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-black h2 ">ABOUT</a>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </nav> 
-    </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="index.html">
+                        <img class= "logo-image" src="images/Business Click Logo.png" alt="Logo">
+                    </a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-black h2" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-black h2 ">BUSINESSES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-black h2 ">RESOURCES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-black h2 " href="pages/about/about.html">ABOUT</a>
+                            </li>
 
-      <div class="banner-body">
-            <div class = "text-center">
-                <div class="image-case">
-                    <img class= "logo-image-second" src="images/Business Click Logo.png" alt="Logo">
+                            <li class="nav-item dropdown">
+                                <div class="dropdown show">
+                                    <a class="nav-link active text-black h2 btn btn-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                        EVENTS
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelled-by="dropdownMenuLink">
+                                        <a class="dropdown-item" href="pages/events/past2022events.html">Past 2022 Events</a>
+                                        <a class="dropdown-item" href="pages/events/onlinepresenceseries.html">Online Presence Series</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                 </div>
-                <h1 class="fw-bold text-center banner-title">Welcome to</h1>
-                <h1 class="fw-bold text-center banner-title">Business Click</h1>
-                <div class="slogan-text">
-                    <p1 class="fs-2 banner-title">Empowering youth and small businesses</p1>
-                </div>
+            </div>
+        </nav>
+    </div> 
+
+    <div class="banner-body">
+        <div class = "text-center">
+            <div class="image-case">
+                <img class= "logo-image-second" src="images/Business Click Logo.png" alt="Logo">
+            </div>
+            <h1 class="fw-bold text-center banner-title">Welcome to</h1>
+            <h1 class="fw-bold text-center banner-title">Business Click</h1>
+            <div class="slogan-text">
+                <p1 class="fs-2 banner-title">Empowering youth businesses</p1>
             </div>
         </div>
+    </div>
 
     <div class="our-mission">
         <div class="text-center">
@@ -70,78 +80,68 @@
         </div>
     </div>
 
-
     <div class="statistics">
         <div class="text-center slogan-text-third" data-aos="fade-right">
-            <h3 class =" fw-bold text-center banner-title" data-aos="zoom-in">6</h3>
+            <h3 class =" fw-bold text-center banner-title" data-aos="zoom-in">10+</h3>
             <h3 class ="text-center banner-title caption-spacing"> Countries Represented in our Community</h3> 
             <h3 class ="fw-bold text-center banner-title " data-aos="zoom-in">13 </h3>
             <h3 class ="text-center banner-title caption-spacing">Workshops </h3>
             <h3 class ="fw-bold text-center banner-title" data-aos="zoom-in">95+</h3>
             <h3 class ="text-center banner-title caption-spacing">Businesses Supported</h3>
         </div>
-    </div>
-
-
         <div class="text-center slogan-text-fourth" data-aos="fade-left">
             <h3 class =" fw-bold text-center banner-title " data-aos="zoom-in">830+</h3>
             <h3 class ="text-center banner-title caption-spacing" >Followers & Subscribers</h3> 
-            <h3 class ="fw-bold text-center banner-title " data-aos="zoom-in">12400+</h3>
-            <h3 class ="text-center banner-title caption-spacing" >Social Media Impressions </h3>
+            <h3 class ="fw-bold text-center banner-title " data-aos="zoom-in">1000+</h3>
+            <h3 class ="text-center banner-title caption-spacing" >Youth Entrepreneurs Impacted</h3>
             <h3 class ="fw-bold text-center banner-title" data-aos="zoom-in">25+</h3>
             <h3 class ="text-center banner-title caption-spacing">Collaborations</h3>
         </div>
-
     </div>
 
     <div class="our-mission-alternate">
         <div class="text-center">
-            <h1 class ="fw-bold banner-title">Our Past Collabrators & Sponsors</h1>
+            <h1 class ="fw-bold banner-title">Our Past Collaborators & Sponsors</h1>
         </div>
         <div class = "images-section">
             <img class= "logo-image-alternate" src="images/bluesun.png" alt="Logo">
             <img class= "logo-image-alternate" src="images/EDGE.png" alt="Logo">
             <img class= "logo-image-alternate" src="images/BusinessCasual.png" alt="Logo">
-            <img class= "logo-image-alternate" src="images/careerfied.png" alt="Logo">
+            <img class= "logo-image-alternate" src="images/RBC.png" alt="Logo">
             <img class= "logo-image-alternate" src="images/FutureFit AI.png" alt="Logo">
-            <img class= "logo-image-alternate" src="images/techundertwenty.png" alt="Logo">
+            <img class= "logo-image-alternate" src="images/Mcmaster University.png" alt="Logo">
         </div>
     </div>
 
     <div class="testmonials">
         <div class="text-center">
-            <h1 class ="fw-bold banner-title">Testmonials</h1>
+            <h1 class ="fw-bold banner-title">Testimonials</h1>
             <div class="slogan-text-fifth">
-                <p1 class="fs-5 banner-title mission-statment ">As an aspiring entrepreneur, it's hard to get your business started because there are so many people doing the same thing. Business Click personally educates and supports not only you but also your business. Thank you for the wonderful event, and for educating beginning entrepreneurs like me.</p1>
+                <p1 class="fs-5 banner-title mission-statment ">"As an aspiring entrepreneur, it's hard to get your business started because there are so many people doing the same thing. Business Click personally educates and supports not only you but also your business. Thank you for the wonderful event, and for educating beginning entrepreneurs like me."</p1>
             </div>
             <div class="testmonial-caption">
                 <p1 class="fs-5 fw-bold banner-title mission-statment "> - Social Media Marketing Workshop Attendee</p1>
             </div>
             <div class="slogan-text-fifth">
-                <p1 class="fs-5 banner-title mission-statment ">Business Click is an amazing opportunity to learn and improve your business skills. Not only do you learn how to reach out and network with others, but you also build meaningful connections with others. I’ve improved my marketing skills greatly since joining the Business Click team and I have become more familiar with other platforms such as Canva. Overall, Business Click has helped me to be more organized and improved my time management skills. Business Click is an incredible opportunity to both learn and gain some volunteer hours, so I highly recommend you join!</p1>
+                <p1 class="fs-5 banner-title mission-statment ">"Business Click is an amazing opportunity to learn and improve your business skills. Not only do you learn how to reach out and network with others, but you also build meaningful connections with others. I’ve improved my marketing skills greatly since joining the Business Click team and I have become more familiar with other platforms such as Canva. Overall, Business Click has helped me to be more organized and improved my time management skills. Business Click is an incredible opportunity to both learn and gain some volunteer hours, so I highly recommend you join!"</p1>
             </div>
             <div class="testmonial-caption">
                 <p1 class="fs-5 fw-bold banner-title mission-statment "> - Jenise Herrero, Marketing Department Lead</p1>
             </div>
             <div class="slogan-text-fifth">
-                <p1 class="fs-5 banner-title mission-statment ">As the Events Lead for Business Click throughout the 2021/2022 year, I have had the pleasure of working with like-minded individuals as we throughly plan and execute a variety of events for the organization. While furthering my own leadership, communication and interpersonal skills, I was able to give back to my community by launching events for youth who are in the business mindset. This has been a truly rewarding position to take on and I'm beyond excited to see where the upcoming year takes Business Click!</p1>
+                <p1 class="fs-5 banner-title mission-statment ">"Thanks so much for the free informational course! Very helpful! I'm a small business owner in NYC, and just trying to help grow my customer base."</p1>
             </div>
             <div class="testmonial-caption">
-                <p1 class="fs-5 fw-bold banner-title mission-statment "> - Nida Siddiqui, Events Department Lead</p1>
+                <p1 class="fs-5 fw-bold banner-title mission-statment "> -Social Media Marketing Workshop Attendee </p1>
             </div>
         </div>
     </div>
-
-
-
 
     <script src = "https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>
     <script src = "js/script.js"> </script>
 
     <script>
         AOS.init();
-    </script>
-
     </script>
 
 </body>

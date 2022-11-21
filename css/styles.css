@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .nav-bar{
     background-color: #FFF4CA;
 }
@@ -8,7 +12,7 @@
 }
 
 .nav-item{
-    padding-left: 40%;
+    padding-left: 30%;
     height: 10%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -108,3 +112,20 @@
 .statistics{
     background-color: #F6CBFD;
 }
+
+.about-us-title{
+    margin-left: 5%;
+}
+
+.about-us-body{
+    padding-top: 3%;
+    padding-bottom: 66%;
+    background-color: #F6CBFD;
+}
+
+.about-us-body-text{
+    margin-left: 4.75%;
+    margin-right: 10% ;
+
+}
+

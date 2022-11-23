@@ -1,13 +1,15 @@
 body{
     overflow-x: hidden;
+    --pink-gradient: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%); 
+    --yellow-gradient: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%); 
 }
 
 .nav-bar{
-    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    background: var(--yellow-gradient);
 }
 
 .banner-body{
-   background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+   background: var(--pink-gradient);
    padding-top: 7.5%;
 }
 
@@ -35,7 +37,7 @@ body{
 
 
 .our-mission{
-    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    background: var(--yellow-gradient);
     padding-top: 1.5%;
 }
 
@@ -71,11 +73,11 @@ body{
 }
 
 .our-past-collabrators-sponsors{
-    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    background: var(--yellow-gradient);
 }
 
 .our-mission-alternate{
-    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    background: var(--yellow-gradient);
     padding-top: 1.5%;
 }
 
@@ -93,7 +95,7 @@ body{
 
 .testmonials{
     padding-top: 1.5%; 
-    background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+    background: var(--pink-gradient);
 }
 
 .slogan-text-fifth{
@@ -110,7 +112,7 @@ body{
 }
 
 .statistics{
-    background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+    background: var(--pink-gradient);
 }
 
 .about-us-title{
@@ -120,7 +122,7 @@ body{
 .about-us-body{
     padding-top: 3%;
     padding-bottom: 66%;
-    background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+    background: var(--pink-gradient);
 }
 
 .about-us-body-text{
@@ -130,13 +132,13 @@ body{
 }
 
 .event-title {
-    background-color: #F6CBFD;
+    background: var(--pink-gradient);
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
 
 .event-schedule {
-    background-color: #FFF4CA;
+    background: var(--yellow-gradient);
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
@@ -144,4 +146,12 @@ body{
 .event-info {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
+}
+
+.pink-section {
+    background: var(--pink-gradient);
+}
+
+.yellow-section {
+    background: var(--yellow-gradient);
 }

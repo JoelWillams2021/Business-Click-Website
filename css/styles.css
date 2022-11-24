@@ -150,8 +150,10 @@ body{
 
 .pink-section {
     background: var(--pink-gradient);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .yellow-section {
     background: var(--yellow-gradient);
+    font-family: 'Montserrat', sans-serif;
 }

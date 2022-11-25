@@ -20,13 +20,16 @@
     <div class = "nav-bar sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="pb-2">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <a class="navbar-brand" href="index.html">
                         <img class= "logo-image" src="images/Business Click Logo.png" alt="Logo">
                     </a>
+                    <div style="padding-right: 10%;"></div>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active text-black h2" aria-current="page" href="index.html">HOME</a>
@@ -43,7 +46,7 @@
 
                             <li class="nav-item dropdown">
                                 <div class="dropdown show">
-                                    <a class="nav-link active text-black h2 btn btn-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                    <a class="nav-link active text-black h2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
                                         EVENTS
                                     </a>
                                     <div class="dropdown-menu" aria-labelled-by="dropdownMenuLink">
@@ -80,23 +83,39 @@
         </div>
     </div>
 
-    <div class="statistics">
-        <div class="text-center slogan-text-third" data-aos="fade-right">
-            <h3 class =" fw-bold text-center banner-title" data-aos="zoom-in">10+</h3>
-            <h3 class ="text-center banner-title caption-spacing"> Countries Represented in our Community</h3> 
-            <h3 class ="fw-bold text-center banner-title " data-aos="zoom-in">13 </h3>
-            <h3 class ="text-center banner-title caption-spacing">Workshops </h3>
-            <h3 class ="fw-bold text-center banner-title" data-aos="zoom-in">95+</h3>
-            <h3 class ="text-center banner-title caption-spacing">Businesses Supported</h3>
-        </div>
-        <div class="text-center slogan-text-fourth" data-aos="fade-left">
-            <h3 class =" fw-bold text-center banner-title " data-aos="zoom-in">830+</h3>
-            <h3 class ="text-center banner-title caption-spacing" >Followers & Subscribers</h3> 
-            <h3 class ="fw-bold text-center banner-title " data-aos="zoom-in">1000+</h3>
-            <h3 class ="text-center banner-title caption-spacing" >Youth Entrepreneurs Impacted</h3>
-            <h3 class ="fw-bold text-center banner-title" data-aos="zoom-in">25+</h3>
-            <h3 class ="text-center banner-title caption-spacing">Collaborations</h3>
-        </div>
+    <div class="statistics p-3">
+        <table class="table table-borderless table-responsive">
+            <tr>
+                <td data-aos="fade-right">
+                    <h3 class ="fw-bold text-center banner-title" data-aos="zoom-in">10+</h3>
+                    <h3 class ="text-center banner-title caption-spacing">Countries Represented in our Community</h3> 
+                </td>
+                <td data-aos="fade-left">
+                    <h3 class =" fw-bold text-center banner-title " data-aos="zoom-in">830+</h3>
+                    <h3 class ="text-center banner-title caption-spacing" >Followers & Subscribers</h3> 
+                </td>
+            </tr>
+            <tr>
+                <td data-aos="fade-right">
+                    <h3 class ="fw-bold text-center banner-title " data-aos="zoom-in">13 </h3>
+                    <h3 class ="text-center banner-title caption-spacing">Workshops </h3>
+                </td>
+                <td data-aos="fade-left">
+                    <h3 class ="fw-bold text-center banner-title " data-aos="zoom-in">1000+</h3>
+                    <h3 class ="text-center banner-title caption-spacing" >Youth Entrepreneurs Impacted</h3>
+                </td>
+            </tr>
+            <tr>
+                <td data-aos="fade-right">
+                    <h3 class ="fw-bold text-center banner-title" data-aos="zoom-in">95+</h3>
+                    <h3 class ="text-center banner-title caption-spacing">Businesses Supported</h3>
+                </td>
+                <td data-aos="fade-left">
+                    <h3 class ="fw-bold text-center banner-title" data-aos="zoom-in">25+</h3>
+                    <h3 class ="text-center banner-title caption-spacing">Collaborations</h3>
+                </td>
+            </tr>
+        </table>
     </div>
 
     <div class="our-mission-alternate">

@@ -1,7 +1,8 @@
-body{
+body {
     overflow-x: hidden;
     --pink-gradient: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%); 
     --yellow-gradient: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%); 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-bar{
@@ -34,7 +35,6 @@ body{
     width: 19%;
     height: auto;
 }
-
 
 .our-mission{
     background: var(--yellow-gradient);
@@ -121,7 +121,7 @@ body{
 
 .about-us-body{
     padding-top: 3%;
-    padding-bottom: 66%;
+    padding-bottom: 13%;
     background: var(--pink-gradient);
 }
 
@@ -156,4 +156,28 @@ body{
 .yellow-section {
     background: var(--yellow-gradient);
     font-family: 'Montserrat', sans-serif;
+}
+
+.social-links {
+    padding-bottom: 8px;
+}
+
+.social-links a {
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--yellow-gradient);
+    color: rgb(182, 76, 233);
+    padding: 8px 0;
+    opacity: 1;
+    transition: 0.3s;
+    margin: 0.5%;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
 }

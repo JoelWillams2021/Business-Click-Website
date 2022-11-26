@@ -121,7 +121,7 @@ body {
 
 .about-us-body{
     padding-top: 3%;
-    padding-bottom: 13%;
+    padding-bottom: 17%;
     background: var(--pink-gradient);
 }
 
@@ -172,7 +172,7 @@ body {
     border-radius: 50px;
     background: var(--yellow-gradient);
     color: rgb(182, 76, 233);
-    padding: 8px 0;
+    padding: 7px 0;
     opacity: 1;
     transition: 0.3s;
     margin: 0.5%;

@@ -10,8 +10,8 @@ body {
 }
 
 .banner-body{
-   background: var(--pink-gradient);
-   padding-top: 7.5%;
+    background: var(--pink-gradient);
+    padding-top: 7.5%;
 }
 
 .nav-item{
@@ -66,7 +66,7 @@ body {
     padding-bottom: 2.5%;
     padding-left: 45.75%;
     margin-top: -22.2%;
-    
+
 }
 .caption-spacing{
     padding-bottom: 2%;
@@ -87,7 +87,7 @@ body {
     height: auto;
     padding-left: 4%;
 }
- 
+
 .images-section{
     padding-top: .75%;
     padding-left: 5%;
@@ -121,7 +121,7 @@ body {
 
 .about-us-body{
     padding-top: 3%;
-    padding-bottom: 17%;
+    padding-bottom: 66%;
     background: var(--pink-gradient);
 }
 

@@ -181,3 +181,8 @@ body {
 .social-links a:hover {
     opacity: 0.8;
 }
+
+.resources-body {
+    padding-top: 3%;
+    padding-bottom: 66%;
+}

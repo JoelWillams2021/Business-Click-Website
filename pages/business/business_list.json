@@ -1,0 +1,16 @@
+{
+    "businesses": [
+        {
+            "name": "test",
+            "tags": ["jewelry"]
+        },
+        {
+            "name" : "test2",
+            "tags": []
+        },
+        {
+            "name": "test3",
+            "tags": ["jewelry"]
+        }
+    ]
+}

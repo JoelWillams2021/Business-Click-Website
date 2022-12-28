@@ -193,7 +193,15 @@ body {
     
 }
 
-.input-group{
+.form-group{
     padding-top: 3%;
-    margin-left: 3%;
+    margin-left: 3.75%;
+}
+
+.submit-button{
+    margin-top: 3%
+}
+
+.searchbar-label{
+   margin-left: -4.5%;
 }

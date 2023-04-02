@@ -1,22 +1,11 @@
 const data = {
     "businesses": [
         {
-            "name": "test",
-            "description": "test description",
+            "name": "Title of your business here",
+            "description": "Fill out request form to have your business featured here!",
             "link": "#",
-            "tags": ["jewelry"]
-        },
-        {
-            "name" : "test2",
-            "description": "test description",
-            "link": "#",
-            "tags": []
-        },
-        {
-            "name": "test3",
-            "description": "test description",
-            "link": "#",
-            "tags": ["jewelry"]
+            "tags": [],
+            "logo": "logos/Your Business Here.png"
         }
     ]
 }
@@ -32,11 +21,17 @@ renderBusinesses(data["businesses"]);
 function renderBusinesses(business_list) {
     table.innerHTML = ''; // clear the table
     if(business_list.length > 0) {
-        business_list.forEach(({name, description, link, tags}) => {
+        business_list.forEach(({name, description, link, tags, logo}) => {
 
             let outer_div = document.createElement("div");
             outer_div.style = "flex: 1 0 21%;";
             outer_div.classList.add("bg-white", "rounded-4");
+
+            let image = document.createElement("img");
+            image.src = logo;
+            image.height = "128";
+            image.width = "128";
+            image.classList.add("p-3");
 
             let inner_div = document.createElement("div");
             inner_div.classList.add("p-3");
@@ -64,6 +59,7 @@ function renderBusinesses(business_list) {
 
             name_a.appendChild(name_h4);
 
+            inner_div.appendChild(image);
             inner_div.appendChild(name_a);
             inner_div.appendChild(description_p);
             inner_div.appendChild(tags_p);

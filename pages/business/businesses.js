@@ -68,6 +68,14 @@ function renderBusinesses(business_list) {
 
             table.appendChild(outer_div);
         });
+        if(business_list.length % 3 != 0) {
+            for(let i = 0; i < 3-(business_list.length % 3); i++) {
+                let outer_div = document.createElement("div");
+                outer_div.style = "flex: 1 0 21%;";
+                outer_div.classList.add("opacity-0", "rounded-4");
+                table.appendChild(outer_div);
+            }
+        }
     } else {
         const message = document.createElement("p");
         message.innerText = 'No businesses found!';
